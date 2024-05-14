@@ -3,24 +3,18 @@ project:
   output-dir: _book
 
 book:
-  title: "Análisis Estadístico Aplicado"
+  title: "Análisis Multivariado Aplicado"
   reader-mode: true
 
   page-footer:
     left: |
-      Análisis Estadístico Aplicado fue escrito pot Luis Huamanchumo, Luis Sanchez y, Luis Guillen.
+      Análisis Multivariado Aplicado fue escrito pot Luis Huamanchumo, Luis Sanchez y, Luis Guillen.
     right: |
       Este libro fue elaborado con <a href="https://quarto.org/">Quarto</a>.
-  #cover-image: cover.jpg
-  #favicon: cover.jpg
-  #site-url: https://r4ds.hadley.nz/
-  #repo-url: https://github.com/hadley/r4ds/
-  #repo-branch: main
-  #repo-actions: [edit, issue]
+
   chapters:
     - index.qmd
 
-#    - preface-2e.qmd
     - prefacio.qmd
 
     - part: introduccion.qmd
@@ -29,10 +23,6 @@ book:
         - estructura-datos.qmd
         - representacion-grafica.qmd
         - vectores-aleatorios.qmd
-#        - data-tidy.qmd
-#       - workflow-scripts.qmd
-#        - data-import.qmd
-#        - workflow-help.qmd
 
     - part: analisis-exploratorio.qmd
       chapters:
@@ -50,7 +40,6 @@ book:
       chapters:
         - acp1.qmd
         - acp2.qmd
-
 
     - part: normalidad-multivariada.qmd
       chapters:
@@ -98,13 +87,12 @@ book:
 
 format:
   html:
-    theme:
-      - cosmo
-      - r4ds.scss
+    theme: cosmo
+
     code-link: true
 
     author-meta: "Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund"
-    include-in-header: "plausible.html"
+
     callout-appearance: simple
 
 editor: visual
