@@ -14,4 +14,6 @@ LaTeX: XeLaTeX
 
 StripTrailingWhitespace: Yes
 
+ZoteroLibraries: "My Library"
+
 SpellingDictionary: es_ES

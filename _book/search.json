@@ -62,5 +62,16 @@
     "crumbs": [
       "Prefacio"
     ]
+  },
+  {
+    "objectID": "conceptos.html",
+    "href": "conceptos.html",
+    "title": "25  Conceptos básicos del álgebra de matrices",
+    "section": "",
+    "text": "(Deville and Särndal 1992)\nMatriz de datos\n\\[\nX=\n\\begin{bmatrix}\nx_{11} \\ x_{12}\\ \\cdots\\ x_{1p} \\\\\nx_{21}\\ x_{22}\\ \\cdots\\ x_{2p} \\\\\n\\vdots\\,\\,\\,\\,\\,\\,\\,\\,\\,   \\vdots\\,\\,\\,\\,   \\ddots\\,\\,\\,\\, \\vdots \\\\\nx_{n1} \\ x_{n2} \\ \\cdots \\ x_{np}\n\\end{bmatrix}\n\\]\n\n\n\n\nDeville, Jean-Claude, and Carl-Erik Särndal. 1992. “Calibration Estimators in Survey Sampling.” Journal of the American Statistical Association 87 (418): 376–82. https://doi.org/10.1080/01621459.1992.10475217.",
+    "crumbs": [
+      "Algebra matricial",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Conceptos básicos del álgebra de matrices</span>"
+    ]
   }
 ]
