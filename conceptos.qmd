@@ -1,7 +1,15 @@
-# Conceptos básicos del algebra de matrices {#sec-data-transform}
+# Conceptos básicos del álgebra de matrices {#sec-data-transform}
 
-```{r}
-#| echo: false
+Matriz de datos
 
-source("_common.R")
-```
+$$
+X=
+\begin{bmatrix}
+ x_{11} \ x_{12}\ \cdots\ x_{1p} \\ 
+ x_{21}\ x_{22}\ \cdots\ x_{2p} \\ 
+ \vdots\,\,\,\,\,\,\,\,\,   \vdots\,\,\,\,   \ddots\,\,\,\, \vdots \\ 
+ x_{n1} \ x_{n2} \ \cdots \ x_{np} 
+\end{bmatrix}
+$$
+
+
