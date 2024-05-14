@@ -1,0 +1,22 @@
+# Prefacio {#sec-intro .unnumbered}
+
+Aunque el libro desarrolla aspectos matemáticos no es requisito su conocimiento para acceder al libro.
+Por ello, es que cada capítulo desarrolla los supuestos estadístico-matemáticos y lo complementa con ejercicios que permiten consolidar e integrar la teoría.
+El primer capítulo, geometría de los datos, desarrolla el enfoque geométrico de la muestra en el espacio de individuos y de variables, fundamental para el análisis multivariado.
+El capítulo 2, desarrolla la técnica de componentes principales con el fin de integrar los fundamentos geométricos desarrollados en el primer capítulo….
+Finalmente, en el capítulo de bases matemáticas se presentan dos anexos relacionados a las bases axiomáticas de la teoría de matrices y la geometría respectivamente.
+
+Metodología del libro
+
+Teoría
+
+Fundamentos geométricos y matemáticos
+
+Casos
+
+Herramienta: R
+
+Artículos científicos
+
+¿Cómo se van a analizar los artículos técnico-científicos?
+- Plan de análisis
