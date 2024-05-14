@@ -8,5 +8,59 @@
     "crumbs": [
       "Bienvenido"
     ]
+  },
+  {
+    "objectID": "patrones-modelos.html",
+    "href": "patrones-modelos.html",
+    "title": "8  PAtrones y modelos",
+    "section": "",
+    "text": "8.1",
+    "crumbs": [
+      "Análisis exploratorio",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>PAtrones y modelos</span>"
+    ]
+  },
+  {
+    "objectID": "gd2.html",
+    "href": "gd2.html",
+    "title": "10  GD2",
+    "section": "",
+    "text": "10.1",
+    "crumbs": [
+      "Geometría de datos",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>GD2</span>"
+    ]
+  },
+  {
+    "objectID": "imv1.html",
+    "href": "imv1.html",
+    "title": "15  IMV1",
+    "section": "",
+    "text": "15.1",
+    "crumbs": [
+      "Inferencia multivariada",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>IMV1</span>"
+    ]
+  },
+  {
+    "objectID": "producto-kronecker.html",
+    "href": "producto-kronecker.html",
+    "title": "31  Producto Kronecker",
+    "section": "",
+    "text": "31.1",
+    "crumbs": [
+      "Conceptos matemáticos",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Producto Kronecker</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio.html",
+    "href": "prefacio.html",
+    "title": "Prefacio",
+    "section": "",
+    "text": "Aunque el libro desarrolla aspectos matemáticos no es requisito su conocimiento para acceder al libro. Por ello, es que cada capítulo desarrolla los supuestos estadístico-matemáticos y lo complementa con ejercicios que permiten consolidar e integrar la teoría. El primer capítulo, geometría de los datos, desarrolla el enfoque geométrico de la muestra en el espacio de individuos y de variables, fundamental para el análisis multivariado. El capítulo 2, desarrolla la técnica de componentes principales con el fin de integrar los fundamentos geométricos desarrollados en el primer capítulo…. Finalmente, en el capítulo de bases matemáticas se presentan dos anexos relacionados a las bases axiomáticas de la teoría de matrices y la geometría respectivamente.\nMetodología del libro\nTeoría\nFundamentos geométricos y matemáticos\nCasos\nHerramienta: R\nArtículos científicos\n¿Cómo se van a analizar los artículos técnico-científicos? - Plan de análisis",
+    "crumbs": [
+      "Prefacio"
+    ]
   }
 ]

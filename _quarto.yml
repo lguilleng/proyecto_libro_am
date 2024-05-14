@@ -85,15 +85,8 @@ book:
         - producto-kronecker.qmd
         - vectorizacion.qmd
 
+
 format:
   html:
     theme: cosmo
-
-    code-link: true
-
-    author-meta: "Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund"
-
-    callout-appearance: simple
-
-editor: visual
 
