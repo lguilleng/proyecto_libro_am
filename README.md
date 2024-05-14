@@ -1,2 +1,7 @@
 # Proyecto libro Análisis Multivariado
+
+Concepto del libro
 El libro está diseñado para estudiantes de estadística, matemáticas, ingenierías y ciencias sociales cuyos intereses pueden estar en la teoría o sus aplicaciones. Los casos prácticos se analizan desde dos perspectivas de modo tal que si el lector no tiene una base matemática suficiente puede acceder al análisis temático sin perder rigurosidad. De allí que, el tratamiento de casos contará con una parte recomendada para lectores con base estadística matemática. Al final de cada capítulo el libro analiza dos artículos científicos desde el  punto de vista de la implementación y el análisis de las técnicas multivariadas.
+
+Organización del libro
+Aunque el libro desarrolla aspectos matemáticos no es requisito su conocimiento para acceder al libro. Por ello, es que cada capítulo desarrolla los supuestos estadístico-matemáticos y lo complementa con ejercicios que permiten consolidar e integrar la teoría. El primer capítulo, geometría de los datos, desarrolla el enfoque geométrico de la muestra en el espacio de individuos y de variables, fundamental para el análisis multivariado. El capítulo 2, desarrolla la técnica de componentes principales con el fin de integrar los fundamentos geométricos desarrollados en el primer capítulo…. Finalmente, en el capítulo de bases matemáticas se presentan dos anexos relacionados a las bases axiomáticas de la teoría de matrices y la geometría respectivamente.
