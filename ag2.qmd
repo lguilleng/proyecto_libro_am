@@ -1,0 +1,7 @@
+# AGP2 {#sec-data-transform}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

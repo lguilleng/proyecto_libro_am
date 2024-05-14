@@ -1,0 +1,9 @@
+# GD2 {#sec-strings}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```
+
+## 

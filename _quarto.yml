@@ -1,0 +1,111 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Análisis Estadístico Aplicado"
+  reader-mode: true
+
+  page-footer:
+    left: |
+      Análisis Estadístico Aplicado fue escrito pot Luis Huamanchumo, Luis Sanchez y, Luis Guillen.
+    right: |
+      Este libro fue elaborado con <a href="https://quarto.org/">Quarto</a>.
+  #cover-image: cover.jpg
+  #favicon: cover.jpg
+  #site-url: https://r4ds.hadley.nz/
+  #repo-url: https://github.com/hadley/r4ds/
+  #repo-branch: main
+  #repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+
+#    - preface-2e.qmd
+    - prefacio.qmd
+
+    - part: introduccion.qmd
+      chapters:
+        - aspectos-iniciales.qmd
+        - estructura-datos.qmd
+        - representacion-grafica.qmd
+        - vectores-aleatorios.qmd
+#        - data-tidy.qmd
+#       - workflow-scripts.qmd
+#        - data-import.qmd
+#        - workflow-help.qmd
+
+    - part: analisis-exploratorio.qmd
+      chapters:
+        - variacion.qmd
+        - valores-faltantes.qmd
+        - covariacion.qmd
+        - patrones-modelos.qmd
+
+    - part: geometria-datos.qmd
+      chapters:
+        - gd1.qmd
+        - gd2.qmd
+
+    - part: analisis-componentes-principales.qmd
+      chapters:
+        - acp1.qmd
+        - acp2.qmd
+
+
+    - part: normalidad-multivariada.qmd
+      chapters:
+        - nmv1.qmd
+        - nmv2.qmd
+
+    - part: inferencia-multivariada.qmd
+      chapters:
+        - imv1.qmd
+        - imv2.qmd
+
+    - part: analisis-factorial.qmd
+      chapters:
+        - af1.qmd
+        - af2.qmd
+
+    - part: escalamiento-multidimensional.qmd
+      chapters:
+        - em1.qmd
+        - em2.qmd
+
+    - part: discriminacion-clasificacion.qmd
+      chapters:
+        - discriminacion.qmd
+        - clasificacion.qmd
+
+    - part: agrupamiento.qmd
+      chapters:
+        - ag1.qmd
+        - ag2.qmd
+
+    - part: apendice-a.qmd
+      chapters:
+        - conceptos.qmd
+        - espacios.qmd
+        - matrices-notables.qmd
+        - matrices-particionadas.qmd
+        - descomposicion-matriz.qmd
+
+    - part: apendice-b.qmd
+      chapters:
+        - formas-cuadraticas.qmd
+        - producto-kronecker.qmd
+        - vectorizacion.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - r4ds.scss
+    code-link: true
+
+    author-meta: "Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund"
+    include-in-header: "plausible.html"
+    callout-appearance: simple
+
+editor: visual
+

@@ -1,0 +1,7 @@
+# Geometría de datos {#sec-transform-intro .unnumbered}
+
+```{r}
+#| results: "asis"
+#| echo: false
+source("_common.R")
+```

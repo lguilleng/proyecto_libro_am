@@ -1,0 +1,7 @@
+# Aspectos iniciales {#sec-data-visualization}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

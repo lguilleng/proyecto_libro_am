@@ -1,0 +1,7 @@
+# Normalidad multivariada {#sec-program-intro .unnumbered}
+
+```{r}
+#| results: "asis"
+#| echo: false
+source("_common.R")
+```

@@ -1,0 +1,7 @@
+# Estructura de datos {#sec-workflow-basics}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

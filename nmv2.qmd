@@ -1,0 +1,7 @@
+# NMV2 {#sec-iteration}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

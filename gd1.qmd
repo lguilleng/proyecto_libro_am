@@ -1,0 +1,7 @@
+# GD1 {#sec-numbers}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

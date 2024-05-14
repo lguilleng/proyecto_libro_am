@@ -1,0 +1,7 @@
+# NMV1 {#sec-functions}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

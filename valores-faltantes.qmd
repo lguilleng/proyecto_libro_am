@@ -1,0 +1,7 @@
+# Valores faltantes {#sec-exploratory-data-analysis}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

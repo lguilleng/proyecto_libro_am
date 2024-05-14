@@ -1,0 +1,7 @@
+# Conceptos básicos del algebra de matrices {#sec-data-transform}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

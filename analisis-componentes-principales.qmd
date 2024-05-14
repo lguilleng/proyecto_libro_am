@@ -1,0 +1,7 @@
+# Análisis de componentes principales {#sec-import .unnumbered}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

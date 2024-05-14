@@ -1,0 +1,7 @@
+# Vectores aleatorios {#sec-workflow-style}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

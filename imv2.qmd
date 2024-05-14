@@ -1,0 +1,7 @@
+# IMV2 {#sec-quarto-formats}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

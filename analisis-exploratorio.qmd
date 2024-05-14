@@ -1,0 +1,7 @@
+# Análisis exploratorio {#sec-visualize .unnumbered}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

@@ -1,0 +1,7 @@
+# Variación {#sec-layers}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

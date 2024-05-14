@@ -1,0 +1,7 @@
+# Covariación {#sec-communication}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```

@@ -1,0 +1,9 @@
+# PAtrones y modelos {#sec-logicals}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```
+
+## 
