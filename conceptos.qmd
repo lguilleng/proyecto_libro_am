@@ -1,4 +1,10 @@
+---
+bibliography: references.bib
+---
+
 # Conceptos básicos del álgebra de matrices {#sec-data-transform}
+
+[@deville1992]
 
 Matriz de datos
 
@@ -11,5 +17,3 @@ X=
  x_{n1} \ x_{n2} \ \cdots \ x_{np} 
 \end{bmatrix}
 $$
-
-
