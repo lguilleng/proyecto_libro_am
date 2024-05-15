@@ -4,9 +4,29 @@
     "href": "index.html",
     "title": "Análisis Estadístico Multivariado Aplicado",
     "section": "",
-    "text": "Bienvenido\nEl libro está diseñado para estudiantes de estadística, matemáticas, ingenierías y ciencias sociales cuyos intereses pueden estar en la teoría o sus aplicaciones. Los casos prácticos se analizan desde dos perspectivas de modo tal que si el lector no tiene una base matemática suficiente puede acceder al análisis temático sin perder rigurosidad. De allí que, el tratamiento de casos contará con una parte recomendada para lectores con base estadística matemática. Al final de cada capítulo el libro analiza dos artículos científicos desde el  punto de vista de la implementación y el análisis de las técnicas multivariadas.\n\nImágen generada con la IA de Adobe Firefly y Adobe Express",
+    "text": "Bienvenido\nEl libro está diseñado para estudiantes de estadística, matemáticas, ingenierías y ciencias sociales cuyos intereses pueden estar en la teoría o sus aplicaciones. Los casos prácticos se analizan desde dos perspectivas de modo tal que si el lector no tiene una base matemática suficiente puede acceder al análisis temático sin perder rigurosidad. De allí que, el tratamiento de casos contará con una parte recomendada para lectores con base estadística matemática. Al final de cada capítulo el libro analiza dos artículos científicos desde el punto de vista de la implementación y el análisis de las técnicas multivariadas.",
     "crumbs": [
       "Bienvenido"
+    ]
+  },
+  {
+    "objectID": "prefacio.html",
+    "href": "prefacio.html",
+    "title": "Prefacio",
+    "section": "",
+    "text": "Aunque el libro desarrolla aspectos matemáticos no es requisito su conocimiento para acceder al libro. Por ello, es que cada capítulo desarrolla los supuestos estadístico-matemáticos y lo complementa con ejercicios que permiten consolidar e integrar la teoría. El primer capítulo, geometría de los datos, desarrolla el enfoque geométrico de la muestra en el espacio de individuos y de variables, fundamental para el análisis multivariado. El capítulo 2, desarrolla la técnica de componentes principales con el fin de integrar los fundamentos geométricos desarrollados en el primer capítulo…. Finalmente, en el capítulo de bases matemáticas se presentan dos anexos relacionados a las bases axiomáticas de la teoría de matrices y la geometría respectivamente.\nMetodología del libro\nTeoría\nFundamentos geométricos y matemáticos\nCasos\nHerramienta: R\nArtículos científicos\n¿Cómo se van a analizar los artículos técnico-científicos? - Plan de análisis",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "introduccion.html",
+    "href": "introduccion.html",
+    "title": "Introducción",
+    "section": "",
+    "text": "El Análisis Multivariado ………..",
+    "crumbs": [
+      "Introducción"
     ]
   },
   {
@@ -43,27 +63,6 @@
     ]
   },
   {
-    "objectID": "producto-kronecker.html",
-    "href": "producto-kronecker.html",
-    "title": "31  Producto Kronecker",
-    "section": "",
-    "text": "31.1",
-    "crumbs": [
-      "Conceptos matemáticos",
-      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Producto Kronecker</span>"
-    ]
-  },
-  {
-    "objectID": "prefacio.html",
-    "href": "prefacio.html",
-    "title": "Prefacio",
-    "section": "",
-    "text": "Aunque el libro desarrolla aspectos matemáticos no es requisito su conocimiento para acceder al libro. Por ello, es que cada capítulo desarrolla los supuestos estadístico-matemáticos y lo complementa con ejercicios que permiten consolidar e integrar la teoría. El primer capítulo, geometría de los datos, desarrolla el enfoque geométrico de la muestra en el espacio de individuos y de variables, fundamental para el análisis multivariado. El capítulo 2, desarrolla la técnica de componentes principales con el fin de integrar los fundamentos geométricos desarrollados en el primer capítulo…. Finalmente, en el capítulo de bases matemáticas se presentan dos anexos relacionados a las bases axiomáticas de la teoría de matrices y la geometría respectivamente.\nMetodología del libro\nTeoría\nFundamentos geométricos y matemáticos\nCasos\nHerramienta: R\nArtículos científicos\n¿Cómo se van a analizar los artículos técnico-científicos? - Plan de análisis",
-    "crumbs": [
-      "Prefacio"
-    ]
-  },
-  {
     "objectID": "conceptos.html",
     "href": "conceptos.html",
     "title": "25  Conceptos básicos del álgebra de matrices",
@@ -75,13 +74,14 @@
     ]
   },
   {
-    "objectID": "introduccion.html",
-    "href": "introduccion.html",
-    "title": "Introducción",
+    "objectID": "producto-kronecker.html",
+    "href": "producto-kronecker.html",
+    "title": "31  Producto Kronecker",
     "section": "",
-    "text": "El Análisis Multivariado ………..",
+    "text": "31.1",
     "crumbs": [
-      "Introducción"
+      "Conceptos matemáticos",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Producto Kronecker</span>"
     ]
   }
 ]
