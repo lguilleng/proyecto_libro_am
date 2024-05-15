@@ -3,12 +3,12 @@ project:
   output-dir: _book
 
 book:
-  title: "Análisis Multivariado Aplicado"
+  title: "Análisis Estadístico Multivariado Aplicado"
   reader-mode: true
 
   page-footer:
     left: |
-      Análisis Multivariado Aplicado fue escrito pot Luis Huamanchumo, Luis Sanchez y, Luis Guillen.
+      Análisis Estadístico Multivariado Aplicado fue escrito pot Luis Huamanchumo, Luis Sanchez y, Luis Guillen.
     right: |
       Este libro fue elaborado con <a href="https://quarto.org/">Quarto</a>.
 
@@ -84,7 +84,6 @@ book:
         - formas-cuadraticas.qmd
         - producto-kronecker.qmd
         - vectorizacion.qmd
-
 
 format:
   html:
