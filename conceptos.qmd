@@ -4,8 +4,6 @@ bibliography: references.bib
 
 # Conceptos básicos del álgebra de matrices {#sec-data-transform}
 
-[@deville1992]
-
 Matriz de datos
 
 $$
@@ -17,3 +15,26 @@ X=
  x_{n1} \ x_{n2} \ \cdots \ x_{np} 
 \end{bmatrix}
 $$
+
+```{r}
+x<-1
+y<-2
+x+y
+```
+
+```{r}
+#valores al azar de la distribución normal
+randNorm <- rnorm(300000)
+#calculo de su densidad
+randDensity <- dnorm(randNorm)
+#gráfica
+library(ggplot2)
+ggplot(data.frame(x = randNorm, y = randDensity)) + 
+  aes(x = x, y = y) + 
+geom_point() + 
+  labs(x = "Random Normal Variable", y = "Densidad")
+```
+
+Según @gershunskaya2005 la varianza ....
+
+Como señala @li2024, los errores en el análisis
