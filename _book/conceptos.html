@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -528,7 +562,6 @@ window.Quarto = {
 </header>
 
 
-<p><span class="citation" data-cites="deville1992">(<a href="#ref-deville1992" role="doc-biblioref">Deville and Särndal 1992</a>)</span></p>
 <p>Matriz de datos</p>
 <p><span class="math display">\[
 X=
@@ -539,11 +572,43 @@ x_{21}\ x_{22}\ \cdots\ x_{2p} \\
 x_{n1} \ x_{n2} \ \cdots \ x_{np}
 \end{bmatrix}
 \]</span></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x<span class="ot">&lt;-</span><span class="dv">1</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y<span class="ot">&lt;-</span><span class="dv">2</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>x<span class="sc">+</span>y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#valores al azar de la distribución normal</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>randNorm <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">300000</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#calculo de su densidad</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>randDensity <span class="ot">&lt;-</span> <span class="fu">dnorm</span>(randNorm)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#gráfica</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">data.frame</span>(<span class="at">x =</span> randNorm, <span class="at">y =</span> randDensity)) <span class="sc">+</span> </span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y) <span class="sc">+</span> </span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="fu">geom_point</span>() <span class="sc">+</span> </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Random Normal Variable"</span>, <span class="at">y =</span> <span class="st">"Densidad"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="conceptos_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Según <span class="citation" data-cites="gershunskaya2005">Gershunskaya and Lahiri (<a href="#ref-gershunskaya2005" role="doc-biblioref">2005</a>)</span> la varianza ….</p>
+<p>Como señala <span class="citation" data-cites="li2024">Li et al. (<a href="#ref-li2024" role="doc-biblioref">2024</a>)</span>, los errores en el análisis</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-deville1992" class="csl-entry" role="listitem">
-Deville, Jean-Claude, and Carl-Erik Särndal. 1992. <span>“Calibration Estimators in Survey Sampling.”</span> <em>Journal of the American Statistical Association</em> 87 (418): 376–82. <a href="https://doi.org/10.1080/01621459.1992.10475217">https://doi.org/10.1080/01621459.1992.10475217</a>.
+<div id="ref-gershunskaya2005" class="csl-entry" role="listitem">
+Gershunskaya, Julie B., and Partha Lahiri. 2005. <span>“Variance Estimation for Domains in the US Current Employment Statistics Program.”</span> In, 30443051.
+</div>
+<div id="ref-li2024" class="csl-entry" role="listitem">
+Li, Mingbing, Zhanhui Qi, Xin Wang, Jianjun Shi, Songtang Liu, Kai Zhou, and Chaoqun Dang. 2024. <span>“Error Analysis of Wave Intercomparison Based on Sampling Variability.”</span> <em>Ocean Engineering</em> 306 (August): 118085. <a href="https://doi.org/10.1016/j.oceaneng.2024.118085">https://doi.org/10.1016/j.oceaneng.2024.118085</a>.
 </div>
 </div>
 
